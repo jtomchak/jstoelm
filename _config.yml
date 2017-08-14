@@ -1,13 +1,12 @@
 # Site settings
-title:       Pixyll
+title:       Javascript to ELM
 email:       your_email@example.com
-author:      John Otander
+author:      Jesse Tomchak
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://jtomchak.github.io/jstoelm"
 date_format: "%b %-d, %Y"
 header_pages:
- - about.md
  - contact.html
 
 # Google services
@@ -51,11 +50,11 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: jtomchak
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: jstoelm
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -72,7 +71,7 @@ vk_id:
 show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: false
-share_twitter: false
+share_twitter: true
 share_googleplus: false
 share_linkedin: false
 share_digg: false

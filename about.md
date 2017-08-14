@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Pixyll
+title: About JS to ELM
 permalink: /about/
 tags: about
 ---
