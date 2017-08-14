@@ -3,8 +3,8 @@ title:       Javascript to ELM
 email:       your_email@example.com
 author:      Jesse Tomchak
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "https://jtomchak.github.io/jstoelm"
+baseurl:     "https://jtomchak.github.io/"
+url:         "jstoelm"
 date_format: "%b %-d, %Y"
 header_pages:
  - contact.html
