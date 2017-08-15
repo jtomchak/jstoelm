@@ -10,7 +10,7 @@ collections:
     title: Uploads
     output: true
 excerpt_separator: ''
-highlighter: true
+rouge: true
 markdown: kramdown
 url: http://jtomchak.github.io/jstoelm
 email:
