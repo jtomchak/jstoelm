@@ -13,9 +13,11 @@ excerpt_separator: ''
 highlighter: true
 markdown: kramdown
 url: http://jtomchak.github.io/jstoelm
-email: 
+email:
 author: Jesse Tomchak
 description: A podcast about using Elm coming from Javascript and other languages
+date_format: "%b %-d, %Y"
+
 header_pages:
  - contact.html
 
@@ -127,7 +129,7 @@ text:
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
+permalink:    none
 paginate:     4
 sass:
   style: compressed
