@@ -1,11 +1,21 @@
 # Site settings
-title:       Javascript to ELM
-email:       your_email@example.com
-author:      Jesse Tomchak
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "https://jtomchak.github.io/jstoelm"
-date_format: "%b %-d, %Y"
+---
+title: Javascript to Elm
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+excerpt_separator: ''
+highlighter: true
+markdown: kramdown
+url: http://jtomchak.github.io/jstoelm
+email: 
+author: Jesse Tomchak
+description: A podcast about using Elm coming from Javascript and other languages
 header_pages:
  - contact.html
 
@@ -121,7 +131,7 @@ permalink:    pretty
 paginate:     4
 sass:
   style: compressed
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
