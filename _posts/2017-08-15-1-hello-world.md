@@ -2,8 +2,13 @@
 layout: post
 title: '1: Hello World'
 date:   2017-08-14
-categories: episodes 
+categories: episodes
+audioURL: 'e001-HelloWorld-PROD' 
+excerpt_separator: <!--more-->
 ---
+
+Excited to get this thing started! Covering why this show, what I hope to accomplish, what I hope you, as the listener, can get out of this. All the great things, I think, Elm has to offer and more.
+<!--more-->
 <!-- TOC -->
 
 - [Why this show now?](#why-this-show-now)
@@ -12,7 +17,7 @@ categories: episodes
 
 <!-- /TOC -->
 ## Why this show now?
-* I have gotten a taste of functional programming, and really like it, but Haskell is rough. Map, reduce, filter, slice. 
+* I have gotten a taste of functional programming, and really like it, but Haskell is rough. Map, reduce, filter, slice.
 * I Need that extra little push to keep at it, so by producing this show, I've added a little bit of outside pressure to keep me on track.
 * [The New Rustacean](http://www.newrustacean.com/) inspiration
 * Webassembly is coming
@@ -22,18 +27,18 @@ categories: episodes
 
 
 ## So what is the podcast about?
-* Learning ELM as I learn ELM, each episode will focus on a particular part or topic of the language. We'll start at the beginning together and slowly work up to more advanced topics as we go. 
+* Learning ELM as I learn ELM, each episode will focus on a particular part or topic of the language. We'll start at the beginning together and slowly work up to more advanced topics as we go.
 * Show notes and exercises  
 * Possible community interviews and resources
-* I like ELM Town, and would really like more podcast about ELM, rust, web assembly, and other cutting edge shows. If you know of any please drop me a message. 
+* I like ELM Town, and would really like more podcast about ELM, rust, web assembly, and other cutting edge shows. If you know of any please drop me a message.
 
 ## What is ELM
 * Elm compiles to JavaScript, so trying out Elm is easy.
 * Current version is 0.18.0
 * Quick History:
-	* created by Evan Czaplicki as his 2012 Thesis. 
+	* created by Evan Czaplicki as his 2012 Thesis.
 	* [ELM Town podcast](https://elmtown.github.io/2016/12/01/The-Founding-Story-Ep-6.html)
-* Unlike hand-written JavaScript, Elm code does not produce runtime exceptions in practice. Instead, Elm uses type inference to detect problems during compilation and give friendly hints. 
+* Unlike hand-written JavaScript, Elm code does not produce runtime exceptions in practice. Instead, Elm uses type inference to detect problems during compilation and give friendly hints.
 * Enforced Semantic Versioning. No more surprises in PATCH releases!
 	* SemVer x.y.z
 		* x stands for major version, breaking changes expected
@@ -50,6 +55,3 @@ categories: episodes
 	* elm-reactor — get a project going quickly
 	* elm-make — compile Elm code directly
 	* elm-package — download packages
-
-
-
