@@ -6,7 +6,7 @@ audioURL: 'e002-Expressions-And-Functions'
 categories: episodes
 excerpt_separator: <!--more-->
 ---
-
+We tackle expressions and functions in Elm. Compare and contrast them to what we might already know in Javascript, and try to lay a solid foundation to build upon. 
 
 <!--more-->
 <!-- TOC -->
