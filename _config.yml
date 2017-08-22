@@ -13,7 +13,7 @@ excerpt_separator: ''
 highlighter: rouge
 markdown: kramdown
 url: http://jtomchak.github.io/jstoelm
-email:
+email: hello@jstoelm.com
 author: Jesse Tomchak
 description: A podcast about using Elm coming from Javascript and other languages
 date_format: "%b %-d, %Y"
