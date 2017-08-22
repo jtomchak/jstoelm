@@ -103,22 +103,22 @@ if (document.all) [1]
 * Let's unpack those. Elm functions are not objects, have no special properties, they take input and return output. Not an object, so no prototypal inheritance.
 
 * All functions in Elm are curried by default. If you have "a function of 2 arguments", it's really a function that takes one argument and returns a function that takes another argument.
-```elm
-> fullName fName lName = fName ++ " " ++ lName
+```javascript
+fullName fName lName = fName ++ " " ++ lName
 <function> : String -> String -> String
 
-> fullName "Jesse"
+fullName "Jesse"
 <function> : String -> String
 
-> lastName = fullName "Jesse"
+lastName = fullName "Jesse"
 <function> : String -> String
 
-> lastName "Tomchak"
+lastName "Tomchak"
 "Jesse Tomchak" : String
 
-> superName fname lname = (String.append fname " ") ++ lname
+superName fname lname = (String.append fname " ") ++ lname
 <function> : String -> String -> String
-> superName "Jesse" "Tomchak"
+superName "Jesse" "Tomchak"
 "Jesse Tomchak" : String
 ```
 
