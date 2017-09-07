@@ -70,6 +70,8 @@ elm-package COMMAND
     * If you come from React, Angular, this is pretty familiar stuff, right?
   * now inject that js into the DOM using 'getElementById()'
   * at this point we can check out the index.html file and it should be rendering our images
+
+
 ```html
 <div id="elm-area"></div>
   <script src="elm.js"></script>
@@ -77,6 +79,8 @@ elm-package COMMAND
     Elm.PhotoGroove.embed(document.getElementById("elm-area"));
   </script>
 ```
+
+
 * elm-reactor
   * Builds out our app, has a nice home directory showing used packages
   * First thing I did, was update some text and save, live reloading?
@@ -84,6 +88,8 @@ elm-package COMMAND
   * also found this [elm webpack starter](https://github.com/elm-community/elm-webpack-starter)
 
 * the original title of this episode was Elm Architecture, but there's a lot to cover before we get to use
+
+
 ```js
 main =
     Html.beginnerProgram
