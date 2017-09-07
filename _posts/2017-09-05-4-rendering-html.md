@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '4: Rendering HTML'
-date:   2017-08-04
+date:   2017-09-04
 audioURL: 'e004-Rendering-HTML'
 categories: episodes
 excerpt_separator: <!--more-->
