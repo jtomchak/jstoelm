@@ -19,6 +19,7 @@ description: A podcast about using Elm coming from Javascript and other language
 date_format: "%b %-d, %Y"
 
 header_pages:
+ - subscribe.md
  - contact.html
 
 # Google services
