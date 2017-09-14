@@ -6,7 +6,7 @@ audioURL: 'e005-Elm-Architecture'
 categories: episodes
 excerpt_separator: <!--more-->
 ---
-Looking into the elm architecture in detail, what is, how it evolved, and more importantly how to apply it to our elm projects. 
+Looking into the Elm architecture in detail, what is, how it evolved, and more importantly how to apply it to our Elm projects. 
 <!--more-->
 <!-- TOC -->
 
@@ -19,7 +19,7 @@ Looking into the elm architecture in detail, what is, how it evolved, and more i
 
 
 ## News and updates
-* Up til now it's been a sort of soft launch, last week I did an announcement on elm slack, and twitter. And the support and feedback are nothing short of amazing. This community is fantastic, so thank you.
+* Up til now it's been a sort of soft launch, last week I did an announcement on Elm slack, and twitter. And the support and feedback are nothing short of amazing. This community is fantastic, so thank you.
 * [Elm Conf](https://www.elm-conf.us/talks/)
 
 
