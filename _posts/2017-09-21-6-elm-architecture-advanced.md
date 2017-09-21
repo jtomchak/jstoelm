@@ -41,6 +41,7 @@ We will take a look at the some of the deeper features of the Elm Architecture. 
   * In fact, any time our program needs to get unreliable values (randomness, HTTP, file I/O, database reads, etc.) you have to go through Elm.
   * introduces a two step process for writing apps like this and (1) bare bones (2) and then the cool stuff. I've often said in class, you have to finish step 2, before you can tackle step 5. But I like the bare bones, and then the cool stuff phrase. 
   * Starting with the snippet, keeps elm fmt from running until you get all the way done. may need to make a good snippet for that!
+<iframe src="https://ellie-app.com/embed/7FpnzB7MVa1/0" style="width:100%; height:400px; border:0; border-radius: 3px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 * Giphy
   * so other than the cats. lol
   * getting something on the page, reducing that feedback loop, so important
@@ -52,6 +53,9 @@ We will take a look at the some of the deeper features of the Elm Architecture. 
     * By the numbers
       1. create an HTTP request 
       2. turn that into a command so Elm will actually do it (Http.send)
+
+      
+<iframe src="https://ellie-app.com/embed/7kkX9JskMa1/0" style="width:100%; height:400px; border:0; border-radius: 3px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
   
 
 
