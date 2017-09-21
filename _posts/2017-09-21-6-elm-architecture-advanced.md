@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '6: Elm Architecture with Effects'
-date:   09-19-2017
+date:   2017-09-19
 audioURL: 'e006-Elm-Effects'
 categories: episodes
 excerpt_separator: <!--more-->
