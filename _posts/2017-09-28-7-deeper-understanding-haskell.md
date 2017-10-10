@@ -111,6 +111,7 @@ mkguess word display n = do
 * [Make the Leap from JavaScript to PureScript – Hacker Noon](https://hackernoon.com/make-the-leap-from-javascript-to-purescript-5b35b1c06fef?gi=5c3feba5b1b) by Alex Kelley
 * [Haskell Pretty Print](https://github.com/commercialhaskell/hindent)
 * Learning Books for Haskell
+  * [Haskell Book](http://haskellbook.com/)
   * [Haskell Programming](http://haskellbook.com/)
   * [Haskell: the Craft of Functional Programming](http://www.haskellcraft.com/craft3e/Home.html)
   * [Programming in Haskell](http://www.cambridge.org/9781316626221)
