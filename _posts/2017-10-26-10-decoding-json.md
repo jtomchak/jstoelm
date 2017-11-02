@@ -2,7 +2,7 @@
 layout: post
 title: '11: Fetch & Decoding JSON Part-1'
 date:   2017-11-01
-audioURL:e011-fetch-decode-part-1
+audioURL: e011-fetch-decode-part-1
 categories: episodes
 excerpt_separator: <!--more-->
 ---
