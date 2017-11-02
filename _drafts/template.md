@@ -13,6 +13,7 @@ We will take a look at the Elm Architecture. What it is, it's high level concept
 - [News and updates](#news-and-updates)
 - [Elm Architecture](#elm-architecture)
 - [Picks](#picks)
+- [Resources](#resources)
 - [Follow](#follow)
 
 <!-- /TOC -->
@@ -25,6 +26,7 @@ We will take a look at the Elm Architecture. What it is, it's high level concept
 
 
 ## Picks
+## Resources
 
 ## Follow
 * JavaScript to Elm
