@@ -79,7 +79,7 @@ type Result errValue okValue
 ## Picks
 * [Manton](https://manton.org/)
 * [Micro Blog](https://micro.blog)
-* [Due task management]()
+* [Due task management](http://www.dueapp.com)
 * [Teaching Haskell, a new hope](http://argumatronic.com/posts/2017-10-28-a-new-hope.html)
 
 ## Resources
