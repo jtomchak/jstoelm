@@ -10,8 +10,7 @@ We will take a look at the Elm Architecture. What it is, it's high level concept
 <!--more-->
 <!-- TOC -->
 
-- [News and updates](#news-and-updates)
-- [Elm Architecture](#elm-architecture)
+- [TOPIC](#topic)
 - [Picks](#picks)
 - [Resources](#resources)
 - [Follow](#follow)
@@ -19,11 +18,7 @@ We will take a look at the Elm Architecture. What it is, it's high level concept
 <!-- /TOC -->
 
 
-## News and updates
-
-
-## Elm Architecture 
-
+## TOPIC
 
 ## Picks
 ## Resources
