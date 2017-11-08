@@ -6,7 +6,7 @@ audioURL: e012-fetch-decoding-json-part-2
 categories: episodes
 excerpt_separator: <!--more-->
 ---
-One of the fundemental tasks of any web app, is to get, display, capture, save, manipulate, or otherwise man handle data from an http request. We are gonna dive into what that means for our model, our update function, and our sanity. 
+We are there. Finally. Decoding Json. Things we have learned up til now are will culminate into fetching Json data from a server endpoint, and transforming that into type safe Elm to be able to use in our Elm applications.  
 <!--more-->
 <!-- TOC -->
 
@@ -101,6 +101,7 @@ hasTitle maybeTitle size =
 * [Elm in action](https://www.manning.com/books/elm-in-action)
 * [Lessons Learned From a Year of Elm -- William Makley](https://gist.github.com/wmakley/710183095662dae473092a0e5f294f24)
 * [Time Well Spent -- Kyle Shevlin](https://kyleshevlin.com/time-well-spent/)
+* [Better Podcasting -- Dan Benjamin](http://podcastmethod.co/)
 
 ## Resources
 * [Intro Elm decode json](https://guide.elm-lang.org/interop/json.html)
