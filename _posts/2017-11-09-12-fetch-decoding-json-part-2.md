@@ -1,8 +1,8 @@
 ---
 layout: post
 title: '12: Fetch & Decoding JSON Part-2'
-date:   2017-10-25
-audioURL: e012-fetch-decoding-json-part-2
+date:   2017-11-08
+audioURL: e012-fetch-decode-part-2
 categories: episodes
 excerpt_separator: <!--more-->
 ---
@@ -94,6 +94,8 @@ hasTitle maybeTitle size =
         Just photoTitle ->
             title (photoTitle ++ " [" ++ toString size ++ " KB]")
 ```
+<iframe src="https://ellie-app.com/embed/fRJh3Wh5Qa1/2" style="width:100%; height:400px; border:0; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 
 * Thinking about a couple bonous interviews, thoughts, Elm Town is already there. Are there peeps you'd like to hear from ? 
 
