@@ -2,7 +2,7 @@
 layout: post
 title: '13: To Type or Not to Type'
 date:   2017-11-15
-audioURL: **MP3TRACK**
+audioURL: e013-type-or-not-to-type
 categories: episodes
 excerpt_separator: <!--more-->
 ---
