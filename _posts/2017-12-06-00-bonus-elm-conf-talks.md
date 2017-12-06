@@ -1,8 +1,7 @@
 ---
 layout: post
-title: 'Bonus: Elm Conf Talks'
-date:   **DATE**
-audioURL: **MP3TRACK**
+title: 'Bonus: Elm Conf Talks 2017'
+audioURL: elm-conf-finished
 categories: episodes
 excerpt_separator: <!--more-->
 ---
@@ -102,9 +101,10 @@ thoughts.
 
 ## Picks
 
-* [Brian Hicks]()
-* []
-  ## Resources
+* [Elm Conf US](https://www.elm-conf.us/)
+* [Brian Hicks](https://twitter.com/brianhicks)
+* [Luke Westby](https://twitter.com/ellie_editor)
+* [Richard Feldman](https://www.elm-conf.us/talks/richard-feldman/)
 
 ## Follow
 
