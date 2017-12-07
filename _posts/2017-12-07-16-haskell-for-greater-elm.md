@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '16: Haskell for greater Elm'
-audioURL: **MP3TRACK**
+audioURL: e016-haskell-for-greater-elm
 categories: episodes
 excerpt_separator: <!--more-->
 ---
@@ -110,8 +110,8 @@ concat :: Foldable t => t [a] -> [a]
 
 ## Picks
 
-[Partial application lamda parameters for js by Bo Lingen](https://medium.com/@citycide/partial-application-lambda-parameters-for-js-aa16f4d94df4)
-[ReasonML Dr. Axel Rauschmayer](http://2ality.com/2017/11/about-reasonml.html)
+* [Partial application lamda parameters for js by Bo Lingen](https://medium.com/@citycide/partial-application-lambda-parameters-for-js-aa16f4d94df4)
+* [ReasonML Dr. Axel Rauschmayer](http://2ality.com/2017/11/about-reasonml.html)
 
 <script src="https://gist.github.com/citycide/de05c3f47a347c1b64cb7a7c548f6b7c.js"></script>
 
