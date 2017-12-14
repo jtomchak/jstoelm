@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '17: Ports: Playing well with others'
-audioURL: **MP3TRACK**
+audioURL: e017-ports
 categories: episodes
 excerpt_separator: <!--more-->
 ---
@@ -73,6 +73,7 @@ Working on Elm, but we still want to leverage our favorite library or something 
 ## Picks
 
 * [The Haskell Book, You code to learn to learn to code with this book!](http://haskellbook.com/)
+* [Mostly Adequate Guide](https://github.com/MostlyAdequate/mostly-adequate-guide)
 * [Synchronizable abstractions for understandable concurrency
   Or: what is Concurrent ML all about? by Adam Solove](https://medium.com/@asolove/synchronizable-abstractions-for-understandable-concurrency-64ae57cd61d1)
 
