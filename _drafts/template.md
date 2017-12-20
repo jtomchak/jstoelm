@@ -1,9 +1,7 @@
----
-layout: post
-title: '4: Elm Architecture'
 audioURL: **MP3TRACK**
 categories: episodes
 excerpt_separator: <!--more-->
+
 ---
 
 We will take a look at the Elm Architecture. What it is, it's high level
