@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '18: Ports by example'
-audioURL: **MP3TRACK**
+audioURL: e018-ports-by-example
 categories: episodes
 excerpt_separator: <!--more-->
 ---
@@ -35,7 +35,7 @@ It's time to dive right in with several uses of Ports in Elm, what better way th
   * The actor is just a _thing_ that receives a message and then does something based on that message.
   * The actor can have private state, that cannot be changed directly by another actor.
   * Actors work in a system of actors. If you only have a single actor, then there's no one to send messages to or worse, no one to get messages to. In our case, Elm is an actor, and JS is an actor, sending messages back and forth to each other.
-  * Messages send to an actor or processed sequentially.
+  * Messages sent to an actor or processed sequentially.
   * Needs 3 things of computation:
     1. getting something done
     2. store things
