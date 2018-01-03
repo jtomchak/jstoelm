@@ -43,7 +43,6 @@ The idea of functional programing is more than just the use of functions, or fun
     }
 ```
 
-\*
 
 ### Procedural/Imperative programming
 
