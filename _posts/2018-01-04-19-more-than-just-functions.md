@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '19: More than Just Functions'
-audioURL: **MP3TRACK**
+audioURL: e019-more-than-just-functions
 categories: episodes
 excerpt_separator: <!--more-->
 ---
@@ -42,7 +42,6 @@ The idea of functional programing is more than just the use of functions, or fun
         }
     }
 ```
-
 
 ### Procedural/Imperative programming
 
