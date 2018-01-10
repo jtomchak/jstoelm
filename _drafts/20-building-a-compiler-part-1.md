@@ -21,11 +21,7 @@ Something I've wanted to know more about, having missed out on the usual opportu
 * [Lexical Analyis](#lexical-analyis)
   * [Defining Tokens](#defining-tokens)
   * [Actual Lexer](#actual-lexer)
-  * [REPL](#repl)
-* [Parsing](#parsing)
-  * [Parse Generator](#parse-generator)
-  * [Actual Parsing](#actual-parsing)
-  * [Read-Parse-Print-Loop](#read-parse-print-loop)
+    * [Additional Character Implementation](#additional-character-implementation)
 * [Picks](#picks)
 * [Resources](#resources)
 * [Follow](#follow)
@@ -89,39 +85,61 @@ Frankly, this topic, for me, above all others, has been wildly unapproachable. A
 
 ### Defining Tokens
 
+* defining the tokenType to be a string. easy to debug, we could use int or byte for more proformate, but string works for us. let's walk before we run. #preoptimizing
+* Illegal, EOF,
+* Identifiers and literals, like INT or IDENT (1, 2, 3) or (minus, foobar, _otherfunctionname_)
+* Operators, = + ,
+* Delimiters, (, ;, (, ), {, })
+* Keywords, FUNCTION or LET
+
 ### Actual Lexer
 
-### REPL
+* gonna read through the source code one character at a time, and 'translate' it all into tokens. every '+' or 'LET' keyword. will be tokenized.
+* Only supporting ASCII, and not the full Unicode range. Fully Unicode & UTF-8 would need to not an increment, but a rune? bc each character could be several bytes!!!
+* rune: 'The Go language defines the word rune as an alias for the type int32, so programs can be clear when an integer value represents a code point. Moreover, what you might think of as a character constant is called a rune constant in Go. The type and value of the expression'
+  * so like the '⌘' is rune with integer value 0x2318.
+* These tests are super nice to have. Man, so nice
+* Need to walk the word to see if it's an lang identifier and then
+* Gotta account for the white space between keywords and idenifiers.
+* Then we've got to handle numbers, like 5,6, or 239048
 
-## Parsing
+#### Additional Character Implementation
 
-### Parse Generator
+* '==', '!', '!=', '-', '/', '\*', '<', '>'
+* these will fall into one of 3 categories
+  1. one-character token
+  2. two-character token
+  3. keywork token
+* Side note, Go Lang will not test/run/compile if you are importing unused packages like 'fmt'
 
-### Actual Parsing
-
-* Let Statements
-* Return Statements
-* Expressions
-* Top Down Operator Precedence or PRATT by Vaughan Pratt
-* Vocabulary
-* Preparing the AST
-* Implement the PRATT
-* Identifiers
-* Integer Literals
-* Prefix / Infix Operators
-* Boolean Literals
-* Grouped Expressions
-* Function Literals
-* Call Expressions
-
-### Read-Parse-Print-Loop
+- Let Statements
+- Return Statements
+- Expressions
+- Top Down Operator Precedence or PRATT by Vaughan Pratt
+- Vocabulary
+- Preparing the AST
+- Implement the PRATT
+- Identifiers
+- Integer Literals
+- Prefix / Infix Operators
+- Boolean Literals
+- Grouped Expressions
+- Function Literals
+- Call Expressions
 
 ## Picks
 
+* [Rexpad](https://www.rexpad.com/)
+* [Papers I read and loved](https://pixel-druid.com/blog/papers-i-read-and-loved-in-2017/)
+* [Serverless Haskell](https://github.com/seek-oss/serverless-haskell)
+
 ## Resources
 
+* [Writing An Interpreter In Go](https://interpreterbook.com/)
+* [Go Docs](https://golang.org/)
 * [AST Explorer](https://astexplorer.net/)
-*
+* [Meow Lang](https://github.com/jtomchak/Meow)
+* [Dragon Book](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
 
 ## Follow
 
