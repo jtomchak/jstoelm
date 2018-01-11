@@ -18,7 +18,7 @@ Something I've wanted to know more about, having missed out on the usual opportu
   * [Compiler](#compiler)
   * [Interpreter](#interpreter)
 * [What we're actually building](#what-were-actually-building)
-* [Bit of what Meow Lange will look like](#bit-of-what-meow-lange-will-look-like)
+* [Bit of what Meow Lang will look like](#bit-of-what-meow-lang-will-look-like)
 * [Lexical Analysis](#lexical-analysis)
   * [Defining Tokens](#defining-tokens)
   * [Actual Lexer](#actual-lexer)
@@ -76,7 +76,7 @@ Frankly, this topic, for me, above all others, has been wildly unapproachable. A
   * If there's one concert thing I learned in 2017, it's that regardless of your specific domain of knowledge, learning more about ideas, patterns, and concepts relating to your domain, will absolutely without a doubt make you better and broaden your abilities within that specific domain.
   * For example, learning Elm has made me a better JS programmer. Learning (or struggling with) Haskell has helped when learning Elm and Functional Programming. Learning by building a compiler can only help to serve us while we try to understand the high level abstractions.
 
-## Bit of what Meow Lange will look like
+## Bit of what Meow Lang will look like
 
 ```sh
 let five = 5;
