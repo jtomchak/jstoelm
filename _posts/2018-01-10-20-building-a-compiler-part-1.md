@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '20: Building a compiler. Part 1'
-audioURL: **MP3TRACK**
+audioURL: e020-building-a-compiler-1 
 categories: episodes
 excerpt_separator: <!--more-->
 ---
@@ -16,9 +16,10 @@ Something I've wanted to know more about, having missed out on the usual opportu
 * [What is it Compiler or Interpreter, what's the difference?](#what-is-it-compiler-or-interpreter-whats-the-difference)
 * [Steps of a](#steps-of-a)
   * [Compiler](#compiler)
-  * [Interperter](#interperter)
+  * [Interpreter](#interpreter)
 * [What we're actually building](#what-were-actually-building)
-* [Lexical Analyis](#lexical-analyis)
+* [Bit of what Meow Lange will look like](#bit-of-what-meow-lange-will-look-like)
+* [Lexical Analysis](#lexical-analysis)
   * [Defining Tokens](#defining-tokens)
   * [Actual Lexer](#actual-lexer)
     * [Additional Character Implementation](#additional-character-implementation)
@@ -30,7 +31,7 @@ Something I've wanted to know more about, having missed out on the usual opportu
 
 ## Compilers aren't scary.
 
-Frankly, this topic, for me, above all others, has been wildly unapproachable. And this might be a case where I know more than I think, but I think the reality is, the materials I've found explaining compilers come with nothing short of a dump truck of implied knowledge, that I simply do not process. You can check the resources for an extensive list of books that've started with varing degrees of success, one that stuck, that we are going to use extensively is Thorsten Ball's "Writing an Interpreter in Go." I know what you're thinking, Go? I'll defer to Thorsten's points.
+Frankly, this topic, for me, above all others, has been wildly unapproachable. And this might be a case where I know more than I think, but I think the reality is, the materials I've found explaining compilers come with nothing short of a dump truck of implied knowledge, that I simply do not process. You can check the resources for an extensive list of books that i've started with varying degrees of success, one that stuck, that we are going to use extensively is Thorsten Ball's "Writing an Interpreter in Go." I know what you're thinking, Go? I'll defer to Thorsten's points.
 
 1. Go standard lib has all the things we need, including built in testing. No 3rd libs needed.
 2. Go tooling is pretty great, lets us get a ton of mileage from the standard lib.
@@ -57,7 +58,7 @@ Frankly, this topic, for me, above all others, has been wildly unapproachable. A
 6. Code Optimizer
 7. Code Generator
 
-### Interperter
+### Interpreter
 
 8. Lexical Analysis
 9. Parsing
@@ -72,20 +73,44 @@ Frankly, this topic, for me, above all others, has been wildly unapproachable. A
 * We're gonna tackle Lexing and Parsing in part 1, and evaluation will take up a majority of part 2.
 * Remind me how this gets us to Elm again?
   * A fair question.
-  * If there's one concert thing I learned in 2017, it's that regardless of your specific domain of knowleadge, learning more about ideas, patterns, and concepts relating to your domain, will absolutly without a doubt make you better and broaden your abilities within that specific domain.
+  * If there's one concert thing I learned in 2017, it's that regardless of your specific domain of knowledge, learning more about ideas, patterns, and concepts relating to your domain, will absolutely without a doubt make you better and broaden your abilities within that specific domain.
   * For example, learning Elm has made me a better JS programmer. Learning (or struggling with) Haskell has helped when learning Elm and Functional Programming. Learning by building a compiler can only help to serve us while we try to understand the high level abstractions.
 
-## Lexical Analyis
+## Bit of what Meow Lange will look like
+
+```sh
+let five = 5;
+let ten = 10;
+
+let add = fn(x, y){
+  x + y;
+};
+
+let result = add(five, ten);
+!-/*5;
+5 < 10 > 5;
+
+if (5 < 10) {
+  return true;
+} else {
+  return false;
+}
+
+10 == 10;
+10 != 9;
+```
+
+## Lexical Analysis
 
 * the cool kids call it 'Lexing'
 * First I heard of it, Kyle Simpson refers to Lexical Scope in YDYJS.
-* This is the process of turning the source code into a more managable form, tokens.
+* This is the process of turning the source code into a more manageable form, tokens.
 * The process of going from source code -> tokens is called 'lexing' other street names include tokenizer or scanner.
-* We will take the tokens and feed them into the parser, which in turn will hopfully produce the AST to be evaluated.
+* We will take the tokens and feed them into the parser, which in turn will hopefully produce the AST to be evaluated.
 
 ### Defining Tokens
 
-* defining the tokenType to be a string. easy to debug, we could use int or byte for more proformate, but string works for us. let's walk before we run. #preoptimizing
+* defining the tokenType to be a string. easy to debug, we could use int or byte for more preformate, but string works for us. let's walk before we run. #preoptimizing
 * Illegal, EOF,
 * Identifiers and literals, like INT or IDENT (1, 2, 3) or (minus, foobar, _otherfunctionname_)
 * Operators, = + ,
@@ -100,7 +125,7 @@ Frankly, this topic, for me, above all others, has been wildly unapproachable. A
   * so like the '⌘' is rune with integer value 0x2318.
 * These tests are super nice to have. Man, so nice
 * Need to walk the word to see if it's an lang identifier and then
-* Gotta account for the white space between keywords and idenifiers.
+* Gotta account for the white space between keywords and identifiers.
 * Then we've got to handle numbers, like 5,6, or 239048
 
 #### Additional Character Implementation
@@ -109,7 +134,7 @@ Frankly, this topic, for me, above all others, has been wildly unapproachable. A
 * these will fall into one of 3 categories
   1. one-character token
   2. two-character token
-  3. keywork token
+  3. keyword token
 * Side note, Go Lang will not test/run/compile if you are importing unused packages like 'fmt'
 
 - Let Statements
@@ -140,6 +165,7 @@ Frankly, this topic, for me, above all others, has been wildly unapproachable. A
 * [AST Explorer](https://astexplorer.net/)
 * [Meow Lang](https://github.com/jtomchak/Meow)
 * [Dragon Book](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
+* [Super Tiny Compiler](https://github.com/thejameskyle/the-super-tiny-compiler)
 
 ## Follow
 
