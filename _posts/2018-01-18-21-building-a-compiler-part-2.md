@@ -6,7 +6,7 @@ categories: episodes
 excerpt_separator: <!--more-->
 ---
 
-In full swing building our ~~compiler~~ interpreter. We've got our lexer working nicely. Now for the meaty part of it. The process of taking all the source code that is now tokenized, and outputing into a data structure is the job of the parser. This output structure is called a 'syntax tree' or 'abstract syntax tree', did you checkout last week's pick?
+In full swing building our ~~compiler~~ interpreter. We've got our lexer working nicely. Now for the meaty part of it. The process of taking all the source code that is now tokenized, and outputting into a data structure is the job of the parser. This output structure is called a 'syntax tree' or 'abstract syntax tree', did you checkout last week's pick?
 
 <!--more-->
 
@@ -31,7 +31,7 @@ In full swing building our ~~compiler~~ interpreter. We've got our lexer working
 
 * Two main ways to tackle parsing
   1. top-down
-  * buliding the root node of the AST and then working downward and out
+  * building the root node of the AST and then working downward and out
   * When the parser starts constructing the parse tree from the start symbol and then tries to transform the start symbol to the input, it is called top-down parsing.
   2. bottom-up
   * goes the other way. lol.
@@ -43,7 +43,7 @@ In full swing building our ~~compiler~~ interpreter. We've got our lexer working
 
 ### Parse Generator
 
-* Dude, I know, well I didn't know, but now I vaugly know.
+* Dude, I know, well I didn't know, but now I vaguely know.
 * Sort of defeats the purpose of learning to just use the off the self parse generator.
 
 ### The actual parsing...
@@ -77,7 +77,7 @@ let add = fn(a,b){
   * infix operators `5 + 5`
   * comparison operators `x == y`
   * call expressions `add(2,3)` or `add(add(2,3), 12)`
-  * oh noes, idenifiers are expressions too! `bar * foo / foobar`
+  * oh noes, identifiers are expressions too! `bar * foo / foobar`
   * first class functions & function literals
 
 * But it gets tricky when you get to expressions as you can see.
@@ -93,14 +93,14 @@ let add = fn(a,b){
 
 * a bit more difficult bc a let can only appear once at the beginning of statement. **HOWEVER** in an expression, tokens of the same type, can appear in multiple positions!!!!!
 * association of parsing functions called "semantic code" with token types.
-* whenever these token types are encountered the parsing fucntions are called
+* whenever these token types are encountered the parsing functions are called
 * each token type can have up to two parsing functions associated with it, depending if the token is in prefix or infix
 * so we have two parsing functions
   1. prefixParseFn - 'nuds' or 'null denotations'
   2. infixParseFn(ast.Expression) - 'leds' or 'left denotations'
 * Both return an ast.Expression, but notice that infixParseFn takes an argument, prefixFarseFn does not.
   * the argument is to the left of the infix operator
-* parsingExpression we use an enum iota, so that we can assign presidence for infix's like `>= + * !X`
+* parsingExpression we use an enum iota, so that we can assign precedence for infix's like `>= + * !X`
   * Automate enum values with: iota
     → A numeric universal counter starting at 0
     → Used only with constant declarations
@@ -108,11 +108,11 @@ let add = fn(a,b){
 
   * don't represent every operator / operand, but rather nest the nodes correctly
   * treat the expression as a whole and then loop over it from left to right, using a set of conditionals
-    if the next token is a SEMICOLON **&&** the precedence of the the following token is greater than the precedence of the current token.
+    if the next token is a not SEMICOLON **&&** the precedence of the the following token is greater than the precedence of the current token.
   * higher precedence is to be deeper in the AST.
   * right-binding power
   * left-binding power
-  * these are the parts of `precedence < p.peekPrecedence` where right-binding power is precendence and left-binding is peekPrecedence
+  * these are the parts of `precedence < p.peekPrecedence` where right-binding power is precedence and left-binding is peekPrecedence
 
 ### Abstract Syntax Tree
 
