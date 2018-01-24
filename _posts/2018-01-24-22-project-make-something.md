@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '22: Project Make Something'
-audioURL: **MP3TRACK**
+audioURL: e022-make-a-project
 categories: episodes
 excerpt_separator: <!--more-->
 ---
@@ -13,6 +13,9 @@ Taking a break from the compiler project, but only for now. I feel the need to e
 <!-- TOC -->
 
 * [Project: Just do it already](#project-just-do-it-already)
+* [Where it all when wrong the midterm](#where-it-all-when-wrong-the-midterm)
+  * [Realign Expectations, Rethinking learning this stuff](#realign-expectations-rethinking-learning-this-stuff)
+  * [Rebooting ?](#rebooting-)
 * [Picks](#picks)
 * [Resources](#resources)
 * [Follow](#follow)
@@ -20,6 +23,9 @@ Taking a break from the compiler project, but only for now. I feel the need to e
 <!-- /TOC -->
 
 ## Project: Just do it already
+
+* Run code in MirrorCode and transpile JS code to AST and compare to answer stored at AST.
+* But the first part is to incorporate the editor, CodeMirrior, and capture the input. That would be the definition of success.
 
 1. Init app, get it running
 2. Split page into 50% using CSS Grid, bc fancy
@@ -34,7 +40,35 @@ Taking a break from the compiler project, but only for now. I feel the need to e
 
 4. Capture coding input and output
 5. Evaluate that JS, safely?
-6.
+
+## Where it all when wrong the midterm
+
+* Passed or Failed
+* Totally failed at this one.
+* Apply the instance of CodeMirror to the element ID after Elm creates the content
+* Request Animation Frame?? Nope, no idea?
+* The rabbit hole, Elm and Ports
+* Me, Elm, and Compile failures
+*
+
+### Realign Expectations, Rethinking learning this stuff
+
+* Ok, so it's a larger project
+* I don't have a good grasp on Elm
+* Core Mission of this Podcast
+* LOL, 1 point for attendance
+* Pipe Operator, ??
+* A bit disheartened with my progress
+* A little concerned effort v progress
+* Remember learning React and Redux? That was a beast
+  * but it was in JS, which was still C style object programming
+  * now it's functional, is it the paridigm that i'm struggling with ?
+
+### Rebooting ?
+
+* Elm multi-files ? This was a bit of a struggle
+* Braking down the problem into small enough chunks ?
+*
 
 ## Picks
 
