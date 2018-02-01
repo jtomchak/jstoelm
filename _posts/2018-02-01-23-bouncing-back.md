@@ -6,7 +6,7 @@ categories: episodes
 excerpt_separator: <!--more-->
 ---
 
-Recovering from our project last week was, to put it kindly, rough. It was a real blow to my self confidence. To be fair, my ambition was on the scale of rediculious, but I didn't think that I would be uttery and completely shalacked. The feeling I had was complete failure and disappointment. So now what?
+Recovering from our project last week was, to put it kindly, rough. It was a real blow to my self confidence. To be fair, my ambition was on the scale of ridiculous, but I didn't think that I would be utterly and completely shellacked. The feeling I had was complete failure and disappointment. So now what?
 
 <!--more-->
 
@@ -29,9 +29,9 @@ Recovering from our project last week was, to put it kindly, rough. It was a rea
 * Special shout out to Peter Jang
   ## Where to go from here ?
 
-So, after getting the show out, I did not even look in the general direction of JS to Elm for the rest of the week, which is pretty unusual. For the most part, I chip away at it over the course of the week, read, shore up the notes, record, let that simmer for a day or so, edit it,and often have a spare day before it's release. Not this week. Nope. For a couple reasons:
+So, after getting the show out, I did not even look in the general direction of JS to Elm for the rest of the week, which is pretty unusual. For the most part, I chip away at it over the course of the week, read, shore up the notes, record, let that simmer for a day or so, edit it, and often have a spare day before it's release. Not this week. Nope. For a couple reasons:
 
-1. I did not want to admit that the start to my super duper awesome project, had stuffered a major set back before ever getting off the ground.
+1. I did not want to admit that the start to my super duper awesome project, had suffered a major set back before ever getting off the ground.
 2. I would have to face the glaring fact, that I have not retained, learned, absorbed, or internalized nearly as much as I thought about Elm, Types, and functional programming in general.
 3. With points 1 and 2, where do I go from here?
 
