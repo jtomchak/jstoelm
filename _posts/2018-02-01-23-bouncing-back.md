@@ -74,6 +74,7 @@ Onward and upward as the saying goes.
 ## Resources
 
 * [Peter Jang's FrontEnd Comparison](https://medium.com/actualize-network/comparing-frontend-frameworks-part-1-introduction-6cf3d49e42cf)
+* [Meow Notes Repo](https://github.com/jtomchak/git-notes-app)
 * [Serverless Framework](https://serverless.com/blog/serverless-express-rest-api/)
 * [Flaticon](https://www.flaticon.com)
 * [Favicon Generator](https://realfavicongenerator.net)
