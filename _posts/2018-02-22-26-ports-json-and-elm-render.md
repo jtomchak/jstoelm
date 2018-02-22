@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 26: Ports JSON And Elm render
 
-The last 10%. We left off our app with being able to pass the return JSON from our fetch promise to get a list of notes through ports to Elm, and debug logging that out. At this point I thought, "success!". You might even recall, I glossed over rendering it to a list, totally spaced the click event needed to make the list actually do something. So today we take the work of getting the data to work, to the work needed to get it back to working functionality using Elm.
+The last 10%. We left off our app with being able to pass the return JSON from our fetch promise to get a list of notes through ports to Elm, and debug logging that out. At this point I thought, "success!". You might even recall, I glossed over rendering it to a list, totally spaced the click event needed to make the list actually do something. So today we get to work on the data, tackle what's needed to get it back to full functionality using Elm.
 
 <!--more-->
 
@@ -108,7 +108,7 @@ renderNotes notes =
 ## Resources
 
 * [Fira Code](https://github.com/tonsky/FiraCode)
-* [Building Web Apps with Elm | Elm Tutorial by The Pragmatic Studio](https://pragmaticstudio.com/elm)
+* [Elm Tutorial by The Pragmatic Studio](https://pragmaticstudio.com/elm)
 * [Elm changed my mind about unpopular languages – Real Kinetic Blog](https://blog.realkinetic.com/elm-changed-my-mind-about-unpopular-languages-190a23f4a834)
 * [Lambda Cat](http://www.lambdacat.com/road-to-elm-let-and-in/)
 
