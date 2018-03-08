@@ -10,7 +10,7 @@ We are back to meow notes, adding our onClick event from Elm back to React to ro
 
 <!--more-->
 
-## Extra Type Alias'
+## Extra Type Alias
 
 * I had made a `type alias Notes = List Note`
 * Mostly because the compiler was complaining at one point, and I wasn't able to see to distill from it that all I needed was some parentheses around `List Note` to disambiguate it.
